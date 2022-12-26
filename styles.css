@@ -179,3 +179,111 @@
 .pricing-card{
     border: 1px solid black;
 }
+
+.faq{
+    width: 80%;
+    padding: 0 10%;
+    /* display: flex; */
+}
+
+.faq-heading{
+    display: flex;
+    justify-content: center;
+}
+
+.faq-parts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.faq-part{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.noname-part{
+    
+    width: 80%;
+    margin: 10% 10%;
+    display: flex;
+    flex-direction:row ;
+}
+
+.text-part{
+    width: 25%;
+}
+
+.img-part{
+    width: 50%;
+}
+
+.img-part img{
+    margin-left: 10%;
+     width: 90%;
+}
+
+.blog{
+    width: 80%;
+    margin: 0 10%;
+}
+
+.blog-heading{
+    display: flex;
+    justify-content: center;
+}
+
+.blog-carts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+}
+
+.blog-cart{
+    width: 33%;
+}
+
+.contact-us{
+    width: 80%;
+    margin: 0 10%;
+}
+
+.contact-heading{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.contact-way{
+    display: flex;
+    justify-content: center;
+    width: 33%;
+}
+
+.contact-form{
+    width: 80%;
+    margin: 0 10%;
+}
+.row-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form-field{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    width: 80%;
+   margin: 0 10%x;
+}
