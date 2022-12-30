@@ -1,12 +1,31 @@
-/* body{
+body{
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: gray;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.header-main{
+    display: flex;
+    justify-content: center;
     width: 80%;
-    margin:0 10%;
-} */
+    padding: 0 10%;
+}
+
+
+
+
+.header h1{
+    color: #007bff;
+    font-size: 40px;
+    font-weight: 900;
+}
 
 .first-part{
     background-image: url("	https://preview.colorlib.com/theme/oneder/images/hero_1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+  
 }
 .header{
     display: flex;
@@ -18,12 +37,23 @@
 
 .logo-header{
     width: 30%;
+    font-family: "Work Sans" !important;
+    text-transform: uppercase;
+    color: white;
 
 
 }
 
+.logo-header h1{
+    font-size: 30px;
+    font-weight: 900;
+
+}
 .nav-header{
     width: 70%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .nav-header ul{
@@ -35,6 +65,10 @@
 
 .nav-header ul li{
     list-style: none;
+    color: rgba(255, 255, 255, 0.7) !important;
+    font-weight: 200 !important;
+    margin-right: 20px;
+
 }
 
 .intro{
@@ -47,7 +81,32 @@
 }
 
 .text-intro{
-    margin-top: 20%;
+    margin-top: 11%;
+}
+
+.common-button{
+    background-color: #007bff;
+   
+    border: #007bff solid 1px ;
+    border-radius: 30px;
+}
+
+.common-button p{
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 30px;
+    text-transform: capitalize;
+    color: white;
+ 
+}
+
+.text-intro h1{
+    color: #fff;
+    font-weight: 900;
+    font-size: 2rem;
+    text-transform: uppercase;
+    width: 60%;
+    margin-left: 20%;
 }
 
 .about{
@@ -57,11 +116,12 @@
     padding: 0 10% ;
 }
 
-.about-header{
+.header{
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 
 .about-body{
     display: flex;
@@ -70,13 +130,23 @@
 }
 
 .about-img{
-    width: 30%;
+    width: 50%;
 }
 
 .about-img img{
     width: 100%;
 }
 
+.about-instruction{
+    width: 45%;
+
+}
+
+.about-instruction h3{
+    color: black;
+    font-size: 1.75rem;
+    font-weight: 500;
+}
 .team{
     width: 80%;
     padding: 0 10%;
@@ -94,6 +164,15 @@
     justify-content: space-between;
 }
 
+.team-info h1{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black;
+}
+
+.team-info p{
+    font-size: 1rem;
+}
 .individual{
     width:30% ;
 }
@@ -111,16 +190,26 @@
     padding: 0 10%;
 }
 
-.portfolio-heading{
-    display: flex;
-    justify-content: center;
-}
+
 
 .portfolio-buttons{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 5%;
+    
 }
+
+.portfolio-buttons button{
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-right: 2%;
+    background: rgba(52, 58, 64, 0.05);
+    color: black;
+    border: transparent 1px solid;
+}
+
+
 
 .portfolio-images{
     display: flex;
@@ -143,12 +232,9 @@
     padding: 0 10%;
 }
 
-.services-heading{
-    display: flex;
-    justify-content: center;
-}
 
 .services-section-holder{
+    margin-top: 10%;
     display: flex;
     flex-direction: column;
 }
@@ -160,15 +246,28 @@
     margin-bottom: 5%;
 }
 
-.pricing{
-    width: 80%;
-    padding: 0 10%;
+.services-sub h3{
+    font-size: 20px;
+    color: #000;
+    font-weight: 300;
+
 }
 
-.pricing-heading{
-    display: flex;
-    justify-content: center;
+.services-learn-more{
+    margin-top: 5%;
+    color: #007bff !important   ;
+
 }
+
+.pricing{
+    width: 80%;
+    padding: 10% 10%;
+    margin-top: 5%;
+    background: rgb(233, 233, 233);
+
+
+}
+
 
 .pricing-card-general{
     display: flex;
@@ -177,30 +276,72 @@
 }
 
 .pricing-card{
-    border: 1px solid black;
+    border: 1px solid transparentx;
+    background-color: white;
+    padding: 5% 2%;
+    margin-top: 5%;
+}
+
+.pricing-card h2{
+    text-align: center;
+    font-size: 1.75rem;
+    color: black;
+    font-weight: 200;
+}
+
+.pricing-card h1{
+    font-size: 3rem;
+    color: #007bff;
+    font-weight: 300;
+    text-align: center;
+}
+.pricing-button{
+    display: flex;
+    justify-content: center;
+}
+
+.pricing-button{
+    background-color: #007bff;
+    border: #007bff solid 1px ;
+    border-radius: 30px;
+    width: 30%;
+    margin-left: 30%;
+   
+}
+
+.pricing-button p{
+    padding: 0 10%;
+    color: white;
 }
 
 .faq{
     width: 80%;
     padding: 0 10%;
     /* display: flex; */
+    background: rgb(233, 233, 233);
+
 }
 
-.faq-heading{
-    display: flex;
-    justify-content: center;
-}
+
 
 .faq-parts{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 10% 0%;
 }
 
 .faq-part{
     display: flex;
     flex-direction: column;
     width: 45%;
+}
+
+.faq-part>div h3{
+    font-size: 1.25rem;
+    color: black;
+    font-weight: 200;
+    margin-bottom: 5%;
 }
 
 .noname-part{
@@ -226,13 +367,11 @@
 
 .blog{
     width: 80%;
-    margin: 0 10%;
+    margin: 5% 10%;
+    /* padding: 10%; */
 }
 
-.blog-heading{
-    display: flex;
-    justify-content: center;
-}
+
 
 .blog-carts{
     display: flex;
@@ -245,15 +384,26 @@
     width: 33%;
 }
 
-.contact-us{
+.blog-text-part h2{
+    font-size: 20px;
+    color: #000;
+    font-weight: 200;
     width: 80%;
-    margin: 0 10%;
+
 }
 
-.contact-heading{
-    display: flex;
-    justify-content: center;
+.continue{
+    color: #007bff;
 }
+
+.contact-us{
+    width: 80%;
+    padding: 5% 10%;
+    background: rgb(233, 233, 233);
+
+}
+
+
 
 .contact-container{
     display: flex;
@@ -270,7 +420,40 @@
 
 .contact-form{
     width: 80%;
-    margin: 0 10%;
+    padding: 5% 10%;
+    background: rgb(233, 233, 233);
+
+}
+
+form h1{
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: black;
+    margin-bottom: 5%;
+   
+}
+
+form label{
+    color: black;
+    margin-bottom: 15px;
+
+}
+
+form input{
+    border-radius: 15px;
+    border:1px solid gray;
+    height: 25px;
+    margin-bottom: 15px;
+}
+
+.submit-btn{
+    background-color: #007bff;
+    color: white;
+    padding: 10px 30px;
+    margin-top: 2%;
+    border-radius: 25px;
+    border: none;
 }
 .row-input{
     display: flex;
@@ -285,26 +468,32 @@
 
 form{
     width: 80%;
-   margin: 0 10%;
+   padding: 5% 10%;
+   background-color: white;
+   border-radius: 5px;
 }
 
 .testimonials{
     height: 500px;
+
 }
 
-.testimonals-heading{
-    display: flex;
-    justify-content: center;
-}
 
 .swiper {
     width: 100%;
     height: 100%;
   }
 
+  .swiper-slide p{
+    font-size: 1.5rem;
+    font-style: italic;
+    width: 50%;
+    font-size: 35px;
+  }
+
   .swiper-slide {
     text-align: center;
-    font-size: 18px;
+    font-size: 12px;
     background: #fff;
 
     /* Center slide text vertically */
@@ -321,6 +510,7 @@ form{
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
+    
   }
 
   .swiper-slide img {
