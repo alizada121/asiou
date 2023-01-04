@@ -697,6 +697,372 @@ form{
 
    
 }
-@media screen and (min-width: 370px) and (max-width: 414px) {}
-@media screen and (min-width: 414px) and (max-width: 768px) {}
-@media screen and (min-width: 768px) and (max-width: 1024px) {}
+@media screen and (min-width: 370px) and (max-width: 414px) {
+    .ham-header{
+        /* width: 30%; */
+        display: flex;
+        /* justify-content: flex-end; */
+        /* align-items: flex-end; */
+        
+    }
+
+    .services-part{
+        flex-direction: column;
+    }
+
+    .services-part-section{
+        margin-bottom: 10%;
+    }
+
+    .nav-header{
+        display: none;
+    }
+
+    .header-main{
+        background-color: white;
+        flex-direction: row;
+        justify-content: space-between;
+        ALIGN-ITEMS: center;
+    }
+
+    .logo-header h1{
+        color: #007bff;
+
+    }
+    .text-intro h1{
+        font-size: 1rem;
+    }
+
+    .header h1{
+        font-size: 30px;
+    }
+
+    .about-body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-img{
+        width: 90%;
+    }
+
+    .about-instruction{
+        width: 90%;
+    }
+
+    .team-people{
+        flex-direction: column;
+    }
+
+    .individual{
+        width: 100%;
+    }
+
+    .portfolio-buttons button{
+        width: 25%;
+        padding: 10px 10px;
+    }
+
+    .services-icon img{
+        widows: 35%;
+    }
+
+    .swiper-slide p{
+        width: 90%;
+        font-size: 25px;
+    }
+
+    .pricing-card-general{
+        flex-direction: column;
+    }
+
+    .faq-parts{
+        flex-direction: column;
+        
+    }
+
+    .faq-part{
+        width: 100%;
+    }
+
+
+    .noname-part{
+        flex-direction: column-reverse;
+    }
+
+    .img-part{
+        width: 100%;
+    }
+
+    .img-part img{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .text-part{
+        width: 100%;
+        margin-top: 10%;
+    }
+    .blog-carts{
+        flex-direction: column;
+    }
+
+    .blog-cart{
+            width: 100%;
+    }
+
+    .contact-container{
+        flex-direction: column;
+    }
+
+    .contact-way{
+        width: 100%;
+    }
+
+}
+@media screen and (min-width: 414px) and (max-width: 768px) {
+    .ham-header{
+        /* width: 30%; */
+        display: flex;
+        /* justify-content: flex-end; */
+        /* align-items: flex-end; */
+        
+    }
+
+    .services-part{
+        flex-direction: column;
+    }
+
+    .services-part-section{
+        margin-bottom: 10%;
+    }
+
+    .nav-header{
+        display: none;
+    }
+
+    .header-main{
+        background-color: white;
+        flex-direction: row;
+        justify-content: space-between;
+        ALIGN-ITEMS: center;
+    }
+
+    .logo-header h1{
+        color: #007bff;
+
+    }
+    .text-intro h1{
+        font-size: 1rem;
+    }
+
+    .header h1{
+        font-size: 30px;
+    }
+
+    .about-body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-img{
+        width: 90%;
+    }
+
+    .about-instruction{
+        width: 90%;
+    }
+
+    .team-people{
+        flex-direction: column;
+    }
+
+    .individual{
+        width: 100%;
+    }
+
+    .portfolio-buttons button{
+        width: 25%;
+        padding: 10px 10px;
+    }
+
+    .services-icon img{
+        widows: 35%;
+    }
+
+    .swiper-slide p{
+        width: 90%;
+        font-size: 25px;
+    }
+
+    .pricing-card-general{
+        flex-direction: column;
+    }
+
+    .faq-parts{
+        flex-direction: column;
+        
+    }
+
+    .faq-part{
+        width: 100%;
+    }
+
+
+    .noname-part{
+        flex-direction: column-reverse;
+    }
+
+    .img-part{
+        width: 100%;
+    }
+
+    .img-part img{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .text-part{
+        width: 100%;
+        margin-top: 10%;
+    }
+    .blog-carts{
+        flex-direction: column;
+    }
+
+    .blog-cart{
+            width: 100%;
+    }
+
+    .contact-container{
+        flex-direction: column;
+    }
+
+    .contact-way{
+        width: 100%;
+    }
+
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .ham-header{
+        /* width: 30%; */
+        display: flex;
+        /* justify-content: flex-end; */
+        /* align-items: flex-end; */
+        
+    }
+
+    .services-part{
+        flex-direction: column;
+    }
+
+    .services-part-section{
+        margin-bottom: 10%;
+    }
+
+    .nav-header{
+        display: none;
+    }
+
+    .header-main{
+        background-color: white;
+        flex-direction: row;
+        justify-content: space-between;
+        ALIGN-ITEMS: center;
+    }
+
+    .logo-header h1{
+        color: #007bff;
+
+    }
+    .text-intro h1{
+        font-size: 1rem;
+    }
+
+    .header h1{
+        font-size: 30px;
+    }
+
+    .about-body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-img{
+        width: 90%;
+    }
+
+    .about-instruction{
+        width: 90%;
+    }
+
+    .team-people{
+        flex-direction: column;
+    }
+
+    .individual{
+        width: 100%;
+    }
+
+    .portfolio-buttons button{
+        width: 25%;
+        padding: 10px 10px;
+    }
+
+    .services-icon img{
+        widows: 35%;
+    }
+
+    .swiper-slide p{
+        width: 90%;
+        font-size: 25px;
+    }
+
+    .pricing-card-general{
+        flex-direction: column;
+    }
+
+    .faq-parts{
+        flex-direction: column;
+        
+    }
+
+    .faq-part{
+        width: 100%;
+    }
+
+
+    .noname-part{
+        flex-direction: column-reverse;
+    }
+
+    .img-part{
+        width: 100%;
+    }
+
+    .img-part img{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .text-part{
+        width: 100%;
+        margin-top: 10%;
+    }
+    .blog-carts{
+        flex-direction: column;
+    }
+
+    .blog-cart{
+            width: 100%;
+    }
+
+    .contact-container{
+        flex-direction: column;
+    }
+
+    .contact-way{
+        width: 100%;
+    }
+
+}
