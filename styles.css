@@ -14,7 +14,7 @@ body{
 
 a{
     text-decoration: none;
-    color: gray;
+    color: rgba(255, 255, 255, 0.7) ;
 }
 
 
@@ -62,6 +62,19 @@ a{
     justify-content: center;
 }
 
+
+.nav-more{
+    background-color: white;
+    color: black ;
+    opacity: 0;
+}
+
+
+
+.flex{
+    display: flex;
+    flex-direction: column ;
+}
 .nav-header ul{
     display: flex;
     flex-direction: row;
@@ -241,6 +254,14 @@ a{
 .portfolio-images{
     display: flex;
     flex-direction: row;
+}
+
+.portfolio-images2{
+    display: none;
+}
+
+.portfolio-images3{
+    display: none;
 }
 
 .portfolio-images1{

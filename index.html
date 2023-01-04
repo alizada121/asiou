@@ -36,8 +36,23 @@
             <a href="#home">
             <li>Home</li>
           </a>
-          <a href="#about">
-            <li>About us</li>
+          <a href="#about"  onmouseenter="openAbout()" onmouseleave="closeAbout()">
+            <li class="flex">About us
+            </li>
+
+            <div class="nav-more" id="nav-more">
+              <a href="#team">
+                <p>Team</p>
+              </a>
+
+              <a href="#pricing">
+                <p>Pricing</p>
+              </a>
+
+              <a href="#faq">
+                <p>Faq</p>
+              </a>
+            </div >
           </a>
             
           <a href="#portfolio">
@@ -196,7 +211,7 @@
         <button onclick="brand()" id="brandBtn">Brand</button>
       </div>
 
-      <div class="portfolio-images">
+      <div class="portfolio-images" id="portfolio1">
         <div class="portfolio-images1">
           <img
             src="https://preview.colorlib.com/theme/oneder/images/img_1.jpg"
@@ -246,6 +261,83 @@
           <img
             src="https://preview.colorlib.com/theme/oneder/images/img_9.jpg"
           />
+        </div>
+      </div>
+
+      <div class="portfolio-images2" id="portfolio2">
+        <div class="portfolio-images1">
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_1.jpg"
+          />
+        
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_11.jpg"
+          />
+        </div>
+
+        <div class="portfolio-images1">
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_2.jpg"
+          />
+
+        </div>
+
+        <div class="portfolio-images1">
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_3.jpg"
+          />
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_8.jpg"
+          />
+        </div>
+
+        <div class="portfolio-images1">
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_4.jpg"
+          />
+        </div>
+      </div>
+
+      <div class="portfolio-images3" id="portfolio3">
+        <div class="portfolio-images1">
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_1.jpg"
+          />
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_5.jpg"
+          />
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_11.jpg"
+          />
+        </div>
+
+        <div class="portfolio-images1">
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_2.jpg"
+          />
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_6.jpg"
+          />
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_12.jpg"
+          />
+        </div>
+
+        <div class="portfolio-images1">
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_3.jpg"
+          />
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_8.jpg"
+          />
+         
+        </div>
+
+        <div class="portfolio-images1">
+          <img
+            src="https://preview.colorlib.com/theme/oneder/images/img_4.jpg"
+          />
+         
         </div>
       </div>
     </section>
@@ -702,6 +794,10 @@
           <p>Copyright ©2022 All rights reserved | This template is made with  by Colorlib</p>
       </div>
     </section> -->
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
   </body>
