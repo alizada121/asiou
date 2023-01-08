@@ -25,10 +25,18 @@ a{
 }
 
 .first-part{
-    background-image: url("	https://preview.colorlib.com/theme/oneder/images/hero_1.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-  
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+}
+
+.background{
+    opacity: 0.5;
+    position: absolute;
+    left: 0;
+    top: -20%;
+    width: 100%;
+    height: auto;
 }
 .header{
     display: flex;
@@ -37,10 +45,17 @@ a{
     padding: 0 10%;
     justify-content: space-between;
     
-    margin-top: 5%;
+    padding-top: 5%;
 
 }
 
+.header-main{
+    position: relative;
+}
+
+.intro{
+    position: relative;
+}
 .logo-header{
     width: 30%;
     font-family: "Work Sans" !important;
@@ -181,6 +196,7 @@ a{
 
 }
 
+
 .team-img:hover .blue{
     display: block;
     transition: 1s;
@@ -313,7 +329,6 @@ a{
     margin-top: 5%;
     background: rgb(233, 233, 233);
 
-
 }
 
 
@@ -324,10 +339,12 @@ a{
 }
 
 .pricing-card{
-    border: 1px solid transparentx;
+    border: 1px solid transparent;
     background-color: white;
     padding: 5% 2%;
     margin-top: 5%;
+    background: linear-gradient(360deg, rgba(255,255,255,0), rgba(255,255,255,1));
+
 }
 
 .pricing-card h2{
@@ -526,6 +543,11 @@ form{
 
 }
 
+.footer-parts{
+    display: flex;
+    flex-direction: row;
+}
+
 
 .swiper {
     width: 100%;
@@ -590,7 +612,71 @@ form{
   }
 
 
+  .footer{
+    width: 80%;
+    padding: 5% 10%;
+    background-color: #333333;
+    /* color: #fff; */
+    /* font-weight: 300; */
+  }
+
+  .footer h2{
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+
+  }
+
+  .footer p{
+    color: #737373;
+    width: 70%;
+  }
+  .footer-parts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15%;
+  }
+
+  .footer-part{
+    width: 33%;
+
+  }
+ 
+  .footer-part li{
+    list-style: none;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+  }
+
+  .icons{
+        display: flex;
+        flex-direction: row;
+        /* margin-bottom: 10%; */
+  }
+
+  .icons img{
+    width: 25px;
+    margin-right: 25px;
+  }
+
+  .license{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
+
+  .about-more{
+    border: 1px solid white;
+    background-color: white;
+    position: absolute;
+    padding: 25px;
+    top: 70%;
+    left: 48%;
+    display: none;
+  }
 
 
   @media screen and (min-width: 320px) and (max-width: 370px) {
@@ -601,6 +687,10 @@ form{
         /* justify-content: flex-end; */
         /* align-items: flex-end; */
         
+    }
+
+    .about-more{
+        display: none;
     }
 
     .services-part{
@@ -727,6 +817,9 @@ form{
         
     }
 
+    .about-more{
+        display: none;
+    }
     .services-part{
         flex-direction: column;
     }
@@ -848,6 +941,9 @@ form{
         /* justify-content: flex-end; */
         /* align-items: flex-end; */
         
+    }
+    .about-more{
+        display: none;
     }
 
     .services-part{
@@ -971,6 +1067,10 @@ form{
         /* justify-content: flex-end; */
         /* align-items: flex-end; */
         
+    }
+
+    .about-more{
+        display: none;
     }
 
     .services-part{

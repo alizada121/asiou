@@ -3,6 +3,7 @@
 var swiper = new Swiper(".mySwiper", {
     pagination: {
       el: ".swiper-pagination",
+      clickable: true
     },
   });
 
@@ -52,13 +53,13 @@ const portfolio3=document.getElementById("portfolio3")
     portfolio1.style.display="none"
     portfolio3.style.display="none"
     portfolio2.style.display="flex"
-
+    console.log("SLAMA")
 
      
   }
 
 
-  function all(){
+  function all2(){
     allBtn.style.backgroundColor="#007bff"
     allBtn.style.color="white"
 
@@ -74,6 +75,7 @@ const portfolio3=document.getElementById("portfolio3")
     portfolio2.style.display="none"
     portfolio3.style.display="none"
     portfolio1.style.display="flex"
+    console.log("SLAMAx")
 
      
   }
@@ -132,7 +134,9 @@ gsap.from(".about", {
     end: "top 250px",
     // scrub: true,
     // markers: true,
-    id: "scrub"
+    id: "scrub",
+    resistance : false
+
   }
 });
 
@@ -147,7 +151,7 @@ gsap.from(".team", {
     start: "top 200px",
     end: "top 300px",
     // scrub: true,     
-    markers: true,
+    // markers: true,
     id: "scrub",
   
   }
@@ -163,20 +167,20 @@ gsap.from(".portfolio", {
     start: "top 200px",
     end: "top 300px",
     // scrub: true,     
-    markers: true,
+    // markers: true,
     id: "scrub",
   
   }
 });
 
-const about=document.getElementById("nav-more")
+const about=document.getElementById("aboutMore")
 
-// function openAbout(){
-//   about.style.display="flex"
-// }
+function openAbout(){
+  about.style.display="block"
+}
 
-// function closeAbout(){
-//   about.style.display="none"
-// }
+function closeAbout(){
+  about.style.display="none"
+}
 
 

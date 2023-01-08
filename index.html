@@ -20,6 +20,7 @@
   </head>
   <body>
     <section class="first-part">
+      <img class="background" src="	https://preview.colorlib.com/theme/oneder/images/hero_1.jpg">
       <section class="header-main">
         <div class="logo-header">
           <h1>Oneder</h1>
@@ -36,24 +37,23 @@
             <a href="#home">
             <li>Home</li>
           </a>
-          <a href="#about"  onmouseenter="openAbout()" onmouseleave="closeAbout()">
+
+          <div  onmouseenter="openAbout()" onmouseleave="closeAbout()" >
+
+          
+          <a href="#about" >
             <li class="flex">About us
             </li>
-
-            <div class="nav-more" id="nav-more">
-              <a href="#team">
-                <p>Team</p>
-              </a>
-
-              <a href="#pricing">
-                <p>Pricing</p>
-              </a>
-
-              <a href="#faq">
-                <p>Faq</p>
-              </a>
-            </div >
           </a>
+
+          <div class="about-more" id="aboutMore" onmouseenter="openAbout()" onmouseleave="closeAbout()">
+                <p>service</p>
+                <p>service</p>
+                <p>service</p>
+
+          </div>
+
+        </div>
             
           <a href="#portfolio">
             <li>Portfolio</li>
@@ -155,8 +155,28 @@
           <div class="team-img">
             <div class="blue">
 
+              <img
+              style="width: 50%; margin:10%;"
+              src="https://cdn.iconscout.com/icon/free/png-128/facebook-269-761599.png"
+            />
+            <img
+            style="width: 50%; margin:10%;"
+              src="https://cdn.iconscout.com/icon/free/png-128/twitter-1464537-1239448.png"
+            />
+            <img
+            style="width: 50%; margin:10%;"
+
+              src="https://cdn.iconscout.com/icon/free/png-128/instagram-1464521-1239436.png"
+            />
+            <img
+            style="width: 50%; margin:10%;"
+
+              src="https://cdn.iconscout.com/icon/free/png-128/linkedin-1464529-1239440.png"
+            />
+
             </div>
             <img
+
               src="https://preview.colorlib.com/theme/oneder/images/person_5.jpg"
             />
           </div>
@@ -170,6 +190,27 @@
           <div class="team-img">
 
             <div class="blue">
+
+              <img
+              style="width: 50%; margin:10%;"
+
+              src="https://cdn.iconscout.com/icon/free/png-128/facebook-269-761599.png"
+            />
+            <img
+            style="width: 50%; margin:10%;"
+
+              src="https://cdn.iconscout.com/icon/free/png-128/twitter-1464537-1239448.png"
+            />
+            <img
+            style="width: 50%; margin:10%;"
+
+              src="https://cdn.iconscout.com/icon/free/png-128/instagram-1464521-1239436.png"
+            />
+            <img
+            style="width: 50%; margin:10%;"
+
+              src="https://cdn.iconscout.com/icon/free/png-128/linkedin-1464529-1239440.png"
+            />
 
             </div>
             <img
@@ -186,6 +227,26 @@
           <div class="team-img">
 
             <div class="blue">
+               <img
+              style="width: 50%; margin:10%;"
+
+            src="https://cdn.iconscout.com/icon/free/png-128/facebook-269-761599.png"
+          />
+          <img
+          style="width: 50%; margin:10%;"
+
+            src="https://cdn.iconscout.com/icon/free/png-128/twitter-1464537-1239448.png"
+          />
+          <img
+          style="width: 50%; margin:10%;"
+
+            src="https://cdn.iconscout.com/icon/free/png-128/instagram-1464521-1239436.png"
+          />
+          <img
+          style="width: 50%; margin:10%;"
+
+            src="https://cdn.iconscout.com/icon/free/png-128/linkedin-1464529-1239440.png"
+          />
 
             </div>
             <img
@@ -205,7 +266,7 @@
         <h1>Portfolio</h1>
       </div>
       <div class="portfolio-buttons">
-        <button style="background-color:#007bff ; color:white;" onclick="all()" id="allBtn">All</button>
+        <button onclick="all2()"  style="background-color:#007bff ; color:white;" id="allBtn">All</button>
         <button onclick="web()" id="webBtn">Web</button>
         <button onclick="design()" id="designBtn">Design</button>
         <button onclick="brand()" id="brandBtn">Brand</button>
@@ -754,7 +815,7 @@
       </form>
     </section>
 
-    <!-- <section class="footer">
+     <section class="footer">
       <div class="footer-parts">
         <div class="footer-part">
           <h2>About us</h2>
@@ -775,6 +836,9 @@
 
         <div class="footer-part">
           <h2>Follow us</h2>
+          <div class="icons">
+
+          
           <img
             src="https://cdn.iconscout.com/icon/free/png-128/facebook-269-761599.png"
           />
@@ -788,12 +852,13 @@
             src="https://cdn.iconscout.com/icon/free/png-128/linkedin-1464529-1239440.png"
           />
         </div>
+        </div>
       </div>
       <hr>
       <div class="license">
           <p>Copyright ©2022 All rights reserved | This template is made with  by Colorlib</p>
       </div>
-    </section> -->
+    </section> 
     
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
